@@ -1,34 +1,13 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <script type="module" src="/src/main.js" defer></script>
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vite App</title>
-</head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-  <div class="carrossel-container relative w-3/4 h-96 overflow-hidden">
-    <div class="carrossel-slides flex transition-transform duration-500">
-      <!-- Slides -->
-      <div class="carrossel-slide w-full flex-shrink-0">
-        <img src="imagem1.jpg" alt="Imagem 1" class="w-full h-full object-cover">
-      </div>
-      <div class="carrossel-slide w-full flex-shrink-0">
-        <img src="imagem2.jpg" alt="Imagem 2" class="w-full h-full object-cover">
-      </div>
-      <div class="carrossel-slide w-full flex-shrink-0">
-        <img src="imagem3.jpg" alt="Imagem 3" class="w-full h-full object-cover">
-      </div>
-    </div>
-
-    <!-- Botões de navegação -->
-    <button class="carrossel-prev absolute left-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full">
-      &larr;
-    </button>
-    <button class="carrossel-next absolute right-0 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full">
-      &rarr;
-    </button>
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
